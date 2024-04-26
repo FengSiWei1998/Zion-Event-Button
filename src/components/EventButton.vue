@@ -4,11 +4,9 @@ const props = defineProps<{
   setGlobalData: (newValue: any) => void;
   public_id: string;
   // event_str: string;
-  btn_str: string
-  var1: string
+  btn_str: string;
+  var1: string;
   var2: string
-
-
 }>();
 function evalFunc() {
   console.log('dispatchEvent');
